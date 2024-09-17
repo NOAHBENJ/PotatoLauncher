@@ -4,7 +4,7 @@ const fs = require('fs');
 const child_process = require('child_process');
 const rayUtils = require('../../assets/script/rayUtils.js'); // easter egg, developer of RayBot fixed this code.
 
-const accounts = JSON.parse(fs.readFileSync(process.env.appdata+'/a.bakedpotato/fnappv2/accounts.json').toString());
+const accounts = JSON.parse(fs.readFileSync(process.env.appdata + '/a.bakedpotato/fnappv2/accounts.json').toString());
 
 const select = document.getElementById('accounts');
 for (const account of accounts){
