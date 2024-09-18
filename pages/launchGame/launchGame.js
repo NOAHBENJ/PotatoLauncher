@@ -2,7 +2,6 @@ import { axios, launcherBasic } from '../../assets/script/requests.js';
 import { VerifiedToken } from '../../assets/script/VerifiedToken.js';
 const fs = require('fs');
 const child_process = require('child_process');
-const rayUtils = require('../../assets/script/rayUtils.js'); // easter egg, developer of RayBot fixed this code.
 
 const accounts = JSON.parse(fs.readFileSync(process.env.appdata+'/a.bakedpotato/fnappv2/accounts.json').toString());
 
