@@ -1,0 +1,28 @@
+{
+  "name": "potato-launcher",
+  "version": "2.2.6",
+  "description": "Manage your Epic Games accounts via the API.",
+  "main": "index.js",
+  "author": "a.bakedpotato, m4tonoob, Otavio",
+  "license": "ISC",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
+  },
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/maker-zip": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
+    "@electron/packager": "^18.3.5",
+    "electron": "^32.1.2"
+  }
+}

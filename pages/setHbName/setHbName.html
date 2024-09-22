@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Potato Launcher - Set Homebase Name</title>
+
+        <script src="setHbName.js" type="module"></script>
+        <script src="../../assets/script/sidebar.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="../../assets/style/bgImage.css">
+        <link rel="stylesheet" type="text/css" href="../../assets/style/input.css">
+        <link rel="stylesheet" type="text/css" href="../../assets/style/scrollbar.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <img src="../../assets/img/brightcore.png" id="background" alt="bg">
+        <form onsubmit="return false">
+            <label for="accounts"></label><select id="accounts"></select>
+            <label for="newHbName"></label><input placeholder="Homebase Name" type="text" id="newHbName">
+            <button id="lookup" onclick="setHbName()">Set Homebase Name</button>
+        </form>
+        <p id="output"></p>
+    </body>
+</html>
